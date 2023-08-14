@@ -7,3 +7,22 @@
   font-family: "Montserrat", sans-serif;
   font-family: "Poppins", sans-serif;
 }
+
+body {
+    height: 100;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container  {
+    display: flex;
+    max-width: 720px;
+    justify-content: space-between;
+}
+
+.container .box.two .image {
+    height: 340px;
+    width: 430px;
+}
